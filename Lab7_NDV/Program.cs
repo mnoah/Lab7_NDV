@@ -72,6 +72,7 @@ namespace Lab7_NDV
                     }
                     Console.WriteLine("would you like to know more? (yes/no)");
                     Anw = Console.ReadLine().ToLower();
+
                 } while (Anw == "yes");
 
                 Console.WriteLine("Thanks!");
